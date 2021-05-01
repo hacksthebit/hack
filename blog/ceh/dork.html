@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HackTheBit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="header">
+<nav class="navbar navbar-custom">
+  <a class="navbar-brand" href="#">
+<img src="../logo1.png" width="40" height="40" class="d-inline-block align-top" alt="hackthebit logo"> HackTheBit</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+</div>
+<br>
+<div class="container">
+<h4><p align='center' style="color: #4cd7e0;" class="head"><b><u>Footprinting </u></b></p></h4> <br>
+
+<h4><p class="head1"><em><u><b>Google Dorks  :- </b></u></em></p></h4> <br>
+<div class="main">
+<p> 
+GoogleDorking is a <b> special searching  technique </b> to query google search engine for information hidden on public websites and vulnerabilities exposed by public servers. 
+
+It makes the life of a hacker more easy . </p>
+<br> 
+<p class="head1"> <b>Available dorks </b></p>
+<p>
+<ol>
+<li> <b>site : </b>
+<p>Search for the result in the given domain 
+ </p>
+</li>
+<li> <b> related : </b>
+<p> Search for Similar web pages</p>
+</li>
+<li> <b>cache : </b>
+<p>Display the web pages stored in Cache
+ </p>
+</li>
+<li> <b>link : </b>
+<p> List the websites having a link to a specific web page  </p>
+</li>
+<li> <b>alligntext : </b>
+<p>  Search for websites containing a specific keyword   </p>
+</li>
+<li> <b>intext : </b>
+<p> Search for documents containing a specific keyword </p>
+</li>
+<li> <b>allintitle : </b>
+<p> Search for websites containing a specific keyword in  the title 
+  </p>
+</li>
+<li> <b>intitle : </b>
+<p> Search for documents containing a specific keyword 
+in the title   </p>
+</li>
+<li> <b>allinurl : </b>
+<p> Search for websites containing a specific keyword in URL  </p>
+</li>
+<li> <b>inurl : </b>
+<p> Search for documents containing a specific keyword 
+in URL  </p>
+</li>
+</ol>
+</p>
+<p class="head1"> <b> Example  </b> </p>
+<ul>
+<li>suppose you want to search websites running php and want to test xss vulnerability 
+in it you can make a simple google search with inurl dork .<br><br>
+<em>inurl=".php"</em></li>
+</ul>
+<p class="head1"> <b> Advance search  </b> </p>
+<p>
+Google also has a site for advance searching .
+<br>
+<a href="https://www.google.com/advanced_search">https://www.google.com/advanced_search  </a>
+<br><br>
+<img src="images/advance search.png " width=350px height=350px alt="advance search image by hacksthebit"> 
+</p>
+<br>
+<h4><p class="head1"><em><u><b>Google Hacking database (GHDB)  :- </b></u></em></p></h4> <br>
+<p>
+The Google Hacking Database (GHDB) is a part of Google hacking search terms that have been found to <b>reveal sensitive data exposed by vulnerable servers and web applications.</b> The GHDB was launched in 2000 by Johnny Long to serve penetration testers. In 2010, Long turned the database over to Offensive Security and it became part of <a href="https://www.exploit-db.com/google-hacking-database/">exploit-db.com </a>. It was also expanded to include not only the Google search engine but also other search engines like Microsoft’s Bing as well as other repositories such as GitHub.
+
+</p>
+
+<p class="head1"><b> categories of queries in GHDB    </b></p><br>
+<ul>
+<li>Error messages that contain sensitive information such as directory paths</li>
+<li>Files with sensitive data, passwords, and user names </li>
+<li> exploits for version specific web services </li>
+<li> Product-specific advisories </li>
+<li> Detailed information about web servers </li>
+<li>Sensitive online shopping data </li>
+
+
+</ul>
+</div>
+<br>
+
+
+<div id="section"> 
+<ul>
+<li>
+<a href="intro.html">
+<button type="button" class="btn btn-secondary">  << Previous  </button></a>
+</li>
+<li><h5> &nbsp &nbsp &nbsp </h5></li>
+<li>
+<a href="who.html">
+ <button type="button" class="btn btn-primary">    Next >>  </button> </a>
+</li>
+</div>
+
+</div>
+<style>
+.header
+{
+position: sticky;
+top:0;
+}
+.navbar-custom {
+background-color: #140440;
+}
+.navbar-custom .navbar-brand ,
+.navbar-custom .nav-link
+{
+color: #4cd7e0;
+}
+
+.navbar-custom  .navbar-toggler-icon 
+{
+background-color: #4cd7e0;
+}
+
+.head
+{
+font-family:'Lucida Console', monospace;
+}
+.head1
+{
+font-family:'Lucida Console', monospace;
+color: #c167eb ;
+}
+
+#section
+ { width: 82%; 
+margin: 15px auto 0 auto;
+ padding: 2%;
+display:table; 
+} 
+#section ul li 
+{ display:table-cell; } 
+#section ul li button
+{ vertical-align:middle; text-align:center; }
+
+
+</style>
+
+</body>
+</html>

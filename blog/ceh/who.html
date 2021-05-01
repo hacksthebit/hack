@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HackTheBit</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="header">
+<nav class="navbar navbar-custom">
+  <a class="navbar-brand" href="#">
+<img src="../logo1.png" width="40" height="40" class="d-inline-block align-top" alt="hackthebit logo"> HackTheBit</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+<div class="collapse navbar-collapse" id="collapsibleNavbar">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="../contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>  
+</nav>
+</div>
+<br>
+<div class="container">
+<h4><p align='center' style="color: #4cd7e0;" class="head"><b><u>Footprinting </u></b></p></h4> <br>
+
+<h4><p class="head1"><em><u><b>Whois Lookup  :- </b></u></em></p></h4> <br>
+<div class="main">
+<p> 
+A whois lookup will tell you a lot of information about who <b>owns an internet domain </b>. It helps to gain information regarding domain name, ownership
+information. IP Address, Netblock data, Domain Name Servers and other
+information’s. Regional Internet Registries (RIR) maintain WHOIS database.<br>
+On Linux, you can run whois lookups from the command line. We’ll walk you through it.
+</p>
+<br> 
+<p class="head1"> <b>Terms </b></p>
+<p>
+<ol>
+<li> <b>Registry : </b>
+<p>A company that manages a list containing a set of domain names 
+ </p>
+</li>
+<li> <b> Registrant : </b>
+<p> The legal owner of the domain; it’s registered to this person.</p>
+</li>
+<li> <b>Registrar : </b>
+<p>A registrant uses a registrar to make his or her registration.
+ </p></li>
+</ol>
+<br>
+<p class="head1"> <b> Information </b> </p>
+<p>A typical whois record will contain the following information : </p>
+<ul>
+<li>Registrant information
+</li>
+<li>Registrant Organization
+</li>
+<li>Registrant Country</li>
+<li>Domain name server information
+</li>
+<li>IP Address</li>
+<li>IP location</li>
+<li>Autonomous System Number(ASN)</li>
+<li>Domain Status</li>
+<li>WHOIS history</li>
+</ul>
+</p>
+<p class="head1"> <b> Install </b> </p>
+<p>The whois command was already installed on kali linux & Ubuntu 20.04 .</p>
+<p>for other distros you have to install it manually </p>
+<ul>
+<li>other versions of Ubuntu : <br>
+<em><b>sudo apt-get install whois </b></em>
+</li><br>
+<li>On Fedora, use the command : <br>
+<em><b>sudo dnf install whois</b> </em>
+</li>
+</ul>
+<p class="head1"> <b> Whois Commandline  </b> </p>
+<p>Syntax for whois lookup is </p>
+<p><em><b> whois {url} or {IP} </b></em></p>
+<p> For whois lookup on google.com we will use command : </p>
+<p> <em>whois google.com </em></p>
+<p> Here is the result : </p>
+<br>
+<img src="images/whois.png " width=350px height=350px alt="whois image by hacksthebit"> 
+</p>
+<p>
+This is reasonably self-explanatory . The following states are attached to this registration:
+</p>
+<ul>
+<li>
+<p><b>clientTransferProhibited :</b></p>
+<p>Error messages that contain sensitive information such as directory paths .
+</p></li>
+<li>
+<p><b>serverDeleteProhibited :</b></p>
+<p>The domain cannot be deleted .
+</p></li>
+<li>
+<p><b>serverTransferProhibited :</b></p>
+<p>The domain cannot be transferred to another registrar .
+</p></li>
+<li>
+<p><b>serverUpdateProhibited :</b></p>
+<p>The domain cannot be updated .
+</p></li>
+</ul>
+<p>
+<b>DNSSEC</b>  stands for <b>Domain Name System Security Extensions </b>, a scheme that allows a DNS name resolver to cryptographically check that the data it received from the DNS zone is valid and hasn’t been tampered with.
+</p>
+<p class="head1"> <b> Whois online </b> </p>
+<p> Many services are available to whois lookup from your browser but they are less flexible . For online lookup use : 
+<a href="https://lookup.icann.org/lookup">
+https://lookup.icann.org/lookup </a>
+</div>
+<br>
+
+
+<div id="section"> 
+<ul>
+<li>
+<a href="intro.html">
+<button type="button" class="btn btn-secondary">  << Previous  </button></a>
+</li>
+<li><h5> &nbsp &nbsp &nbsp </h5></li>
+<li>
+<a href="soon.html">
+ <button type="button" class="btn btn-primary">    Next >>  </button> </a>
+</li>
+</div>
+
+</div>
+<style>
+.header
+{
+position: sticky;
+top:0;
+}
+.navbar-custom {
+background-color: #140440;
+}
+.navbar-custom .navbar-brand ,
+.navbar-custom .nav-link
+{
+color: #4cd7e0;
+}
+
+.navbar-custom  .navbar-toggler-icon 
+{
+background-color: #4cd7e0;
+}
+
+.head
+{
+font-family:'Lucida Console', monospace;
+}
+.head1
+{
+font-family:'Lucida Console', monospace;
+color: #c167eb ;
+}
+
+#section
+ { width: 82%; 
+margin: 15px auto 0 auto;
+ padding: 2%;
+display:table; 
+} 
+#section ul li 
+{ display:table-cell; } 
+#section ul li button
+{ vertical-align:middle; text-align:center; }
+
+
+</style>
+
+</body>
+</html>
